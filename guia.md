@@ -103,4 +103,5 @@ Es talla l'accés complet a Internet per a una subxarxa en un horari definit.
 
 ***
 [Tornar enrere](README.md)
+
 *Fi de l'informe tècnic.*
