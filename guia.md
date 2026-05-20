@@ -102,4 +102,5 @@ Es talla l'accés complet a Internet per a una subxarxa en un horari definit.
 ![Pantalla de bloqueig horari executada amb èxit](pics/Captura%20de%20pantalla%202026-05-20%20184331.png)
 
 ***
+[Tornar enrere](README.md)
 *Fi de l'informe tècnic.*
