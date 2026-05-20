@@ -19,11 +19,19 @@ Per defecte, l'IPFire no intercepta el trànsit web. S'ha d'activar el proxy per
 
 ![Estat inicial del servidor abans de l'activació](pics/Captura%20de%20pantalla%202026-05-13%20211244.png)
 
+
+<img width="1019" height="738" alt="image" src="https://github.com/user-attachments/assets/4c21f079-9b7b-4f21-aebb-35e59d2c9ca3" />
+
+
 ### 2.2. Configuració del Proxy a l'Equip Client
 S'ha optat per una implementació de **proxy no transparent**. Aquesta solució requereix acció obligatòria sobre els clients, ja que el trànsit no es redirigeix automàticament.
 1. A l'equip client s'accedeix a les preferències de xarxa del sistema o del navegador.
 2. Es canvia la configuració del proxy a mode **Manual**.
 3. S'introdueix l'adreça IP de la interfície Green de l'IPFire: `192.169.11.254` i el port `800` tant per als protocols HTTP com HTTPS. Això obliga el navegador a enviar totes les peticions web a través del tallafocs.
+
+
+<img width="989" height="642" alt="image" src="https://github.com/user-attachments/assets/4224becb-29ae-48fa-a0b6-b4195f927724" />
+
 
 ---
 
@@ -37,6 +45,9 @@ Perquè el filtre de categories funcioni, el proxy necessita descarregar un dicc
 3. Es defineix la freqüència al menú desplegable com a **mensualmente**.
 4. Es selecciona l'origen de la base de dades: **Univ. Toulouse**.
 5. Es clica a *Guardar configuraciones de actualización* i es prem el botó **Actualizar ahora** per forçar la descàrrega.
+
+<img width="955" height="454" alt="image" src="https://github.com/user-attachments/assets/3c9afa1f-bead-4e8c-87cb-fef5f759575d" />
+
 
 ### Activitat 2: Bloqueig per categories (Bancs i Ràdio)
 Un cop descarregada la llista, es procedeix a bloquejar temàtiques completes.
